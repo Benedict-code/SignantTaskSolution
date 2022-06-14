@@ -1,0 +1,169 @@
+==============================================================================
+20220613 05:12:01.323 - INFO - + START SUITE: flaskyTestCases [ ]
+==============================================================================
+20220613 05:12:01.330 - INFO - +- START TEST: TC4 [ ]
+------------------------------------------------------------------------------
+20220613 05:12:01.338 - INFO - +-- START KEYWORD: DDT For Invalid Login Scenarios [ user | passwordd | Login Failure ]
+20220613 05:12:01.340 - INFO - +--- START KEYWORD: SeleniumLibrary.Open Browser [ ${URL} | ${BROWSER} ]
+20220613 05:12:01.343 - INFO - Opening browser 'chrome' to base url 'http://192.168.1.162:8080/'.
+20220613 05:12:11.971 - DEBUG - Opened browser with session id 766966286d62594b56b954b3de6040a9.
+20220613 05:12:11.976 - INFO - +--- END KEYWORD: SeleniumLibrary.Open Browser (10635)
+20220613 05:12:11.976 - INFO - +--- START KEYWORD: SeleniumLibrary.Maximize Browser Window [ ]
+20220613 05:12:12.340 - INFO - +--- END KEYWORD: SeleniumLibrary.Maximize Browser Window (364)
+20220613 05:12:12.341 - INFO - +--- START KEYWORD: SeleniumLibrary.Wait Until Element Is Visible [ ${Login_link} ]
+20220613 05:12:12.602 - INFO - +--- END KEYWORD: SeleniumLibrary.Wait Until Element Is Visible (261)
+20220613 05:12:12.603 - INFO - +--- START KEYWORD: SeleniumLibrary.Click Link [ ${Login_link} ]
+20220613 05:12:12.604 - INFO - Clicking link 'xpath://a[contains(text(),'Log In')]'.
+20220613 05:12:13.019 - INFO - +--- END KEYWORD: SeleniumLibrary.Click Link (416)
+20220613 05:12:13.020 - INFO - +--- START KEYWORD: SeleniumLibrary.Input Text [ ${usernaame} | ${username} ]
+20220613 05:12:13.021 - INFO - Typing text 'user' into text field 'id:username'.
+20220613 05:12:13.474 - INFO - +--- END KEYWORD: SeleniumLibrary.Input Text (454)
+20220613 05:12:13.475 - INFO - +--- START KEYWORD: SeleniumLibrary.Input Text [ ${passwoord} | ${password} ]
+20220613 05:12:13.476 - INFO - Typing text 'passwordd' into text field 'id:password'.
+20220613 05:12:13.688 - INFO - +--- END KEYWORD: SeleniumLibrary.Input Text (213)
+20220613 05:12:13.689 - INFO - +--- START KEYWORD: SeleniumLibrary.Wait Until Element Is Visible [ ${Login} ]
+20220613 05:12:13.763 - INFO - +--- END KEYWORD: SeleniumLibrary.Wait Until Element Is Visible (74)
+20220613 05:12:13.763 - INFO - +--- START KEYWORD: SeleniumLibrary.Click Button [ ${Login} ]
+20220613 05:12:13.764 - INFO - Clicking button 'xpath:/html/body/section/form/input[3]'.
+20220613 05:12:14.222 - INFO - +--- END KEYWORD: SeleniumLibrary.Click Button (459)
+20220613 05:12:14.223 - INFO - +--- START KEYWORD: SeleniumLibrary.Page Should Contain [ ${errormessage} ]
+20220613 05:12:14.269 - INFO - Current page contains text 'Login Failure'.
+20220613 05:12:14.269 - INFO - +--- END KEYWORD: SeleniumLibrary.Page Should Contain (46)
+20220613 05:12:14.271 - INFO - +-- END KEYWORD: DDT For Invalid Login Scenarios (12931)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20220613 05:12:14.271 - INFO - +-- START KEYWORD: DDT For Invalid Login Scenarios [ usernamee | test | Login Failure ]
+20220613 05:12:14.273 - INFO - +--- START KEYWORD: SeleniumLibrary.Open Browser [ ${URL} | ${BROWSER} ]
+20220613 05:12:14.274 - INFO - Opening browser 'chrome' to base url 'http://192.168.1.162:8080/'.
+20220613 05:12:19.170 - DEBUG - Opened browser with session id 3e84c0800f09ab1a8d1b100353adc472.
+20220613 05:12:19.336 - INFO - +--- END KEYWORD: SeleniumLibrary.Open Browser (5062)
+20220613 05:12:19.337 - INFO - +--- START KEYWORD: SeleniumLibrary.Maximize Browser Window [ ]
+20220613 05:12:19.621 - INFO - +--- END KEYWORD: SeleniumLibrary.Maximize Browser Window (284)
+20220613 05:12:19.621 - INFO - +--- START KEYWORD: SeleniumLibrary.Wait Until Element Is Visible [ ${Login_link} ]
+20220613 05:12:19.683 - INFO - +--- END KEYWORD: SeleniumLibrary.Wait Until Element Is Visible (62)
+20220613 05:12:19.684 - INFO - +--- START KEYWORD: SeleniumLibrary.Click Link [ ${Login_link} ]
+20220613 05:12:19.684 - INFO - Clicking link 'xpath://a[contains(text(),'Log In')]'.
+20220613 05:12:20.295 - INFO - +--- END KEYWORD: SeleniumLibrary.Click Link (610)
+20220613 05:12:20.295 - INFO - +--- START KEYWORD: SeleniumLibrary.Input Text [ ${usernaame} | ${username} ]
+20220613 05:12:20.297 - INFO - Typing text 'usernamee' into text field 'id:username'.
+20220613 05:12:20.661 - INFO - +--- END KEYWORD: SeleniumLibrary.Input Text (366)
+20220613 05:12:20.662 - INFO - +--- START KEYWORD: SeleniumLibrary.Input Text [ ${passwoord} | ${password} ]
+20220613 05:12:20.663 - INFO - Typing text 'test' into text field 'id:password'.
+20220613 05:12:20.829 - INFO - +--- END KEYWORD: SeleniumLibrary.Input Text (167)
+20220613 05:12:20.829 - INFO - +--- START KEYWORD: SeleniumLibrary.Wait Until Element Is Visible [ ${Login} ]
+20220613 05:12:20.867 - INFO - +--- END KEYWORD: SeleniumLibrary.Wait Until Element Is Visible (38)
+20220613 05:12:20.867 - INFO - +--- START KEYWORD: SeleniumLibrary.Click Button [ ${Login} ]
+20220613 05:12:20.868 - INFO - Clicking button 'xpath:/html/body/section/form/input[3]'.
+20220613 05:12:21.799 - INFO - +--- END KEYWORD: SeleniumLibrary.Click Button (932)
+20220613 05:12:21.802 - INFO - +--- START KEYWORD: SeleniumLibrary.Page Should Contain [ ${errormessage} ]
+20220613 05:12:21.834 - INFO - Current page contains text 'Login Failure'.
+20220613 05:12:21.834 - INFO - +--- END KEYWORD: SeleniumLibrary.Page Should Contain (33)
+20220613 05:12:21.835 - INFO - +-- END KEYWORD: DDT For Invalid Login Scenarios (7563)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20220613 05:12:21.835 - INFO - +-- START KEYWORD: DDT For Invalid Login Scenarios [ ${EMPTY} | passwordd | Please fill out this field. ]
+20220613 05:12:21.838 - INFO - +--- START KEYWORD: SeleniumLibrary.Open Browser [ ${URL} | ${BROWSER} ]
+20220613 05:12:21.839 - INFO - Opening browser 'chrome' to base url 'http://192.168.1.162:8080/'.
+20220613 05:12:33.114 - DEBUG - Opened browser with session id 755b2f0c0e247716ca1a52aa54826ecd.
+20220613 05:12:33.115 - INFO - +--- END KEYWORD: SeleniumLibrary.Open Browser (11276)
+20220613 05:12:33.115 - INFO - +--- START KEYWORD: SeleniumLibrary.Maximize Browser Window [ ]
+20220613 05:12:33.406 - INFO - +--- END KEYWORD: SeleniumLibrary.Maximize Browser Window (291)
+20220613 05:12:33.406 - INFO - +--- START KEYWORD: SeleniumLibrary.Wait Until Element Is Visible [ ${Login_link} ]
+20220613 05:12:33.508 - INFO - +--- END KEYWORD: SeleniumLibrary.Wait Until Element Is Visible (102)
+20220613 05:12:33.508 - INFO - +--- START KEYWORD: SeleniumLibrary.Click Link [ ${Login_link} ]
+20220613 05:12:33.509 - INFO - Clicking link 'xpath://a[contains(text(),'Log In')]'.
+20220613 05:12:33.895 - INFO - +--- END KEYWORD: SeleniumLibrary.Click Link (386)
+20220613 05:12:33.896 - INFO - +--- START KEYWORD: SeleniumLibrary.Input Text [ ${usernaame} | ${username} ]
+20220613 05:12:33.898 - INFO - Typing text '' into text field 'id:username'.
+20220613 05:12:34.158 - INFO - +--- END KEYWORD: SeleniumLibrary.Input Text (231)
+20220613 05:12:34.159 - INFO - +--- START KEYWORD: SeleniumLibrary.Input Text [ ${passwoord} | ${password} ]
+20220613 05:12:34.161 - INFO - Typing text 'passwordd' into text field 'id:password'.
+20220613 05:12:34.343 - INFO - +--- END KEYWORD: SeleniumLibrary.Input Text (184)
+20220613 05:12:34.344 - INFO - +--- START KEYWORD: SeleniumLibrary.Wait Until Element Is Visible [ ${Login} ]
+20220613 05:12:34.406 - INFO - +--- END KEYWORD: SeleniumLibrary.Wait Until Element Is Visible (61)
+20220613 05:12:34.406 - INFO - +--- START KEYWORD: SeleniumLibrary.Click Button [ ${Login} ]
+20220613 05:12:34.406 - INFO - Clicking button 'xpath:/html/body/section/form/input[3]'.
+20220613 05:12:35.006 - INFO - +--- END KEYWORD: SeleniumLibrary.Click Button (600)
+20220613 05:12:35.007 - INFO - +--- START KEYWORD: SeleniumLibrary.Page Should Contain [ ${errormessage} ]
+20220613 05:12:35.096 - DEBUG - Current frame has 0 subframes.
+20220613 05:12:36.437 - INFO - </td></tr><tr><td colspan="3"><a href="selenium-screenshot-8.png"><img src="selenium-screenshot-8.png" width="800px"></a>
+20220613 05:12:36.439 - FAIL - Page should have contained text 'Please fill out this field.' but did not.
+20220613 05:12:36.593 - DEBUG - Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\SeleniumLibrary\__init__.py", line 496, in run_keyword
+    return DynamicCore.run_keyword(self, name, args, kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\robotlibcore.py", line 94, in run_keyword
+    return self.keywords[name](*args, **(kwargs or {}))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\SeleniumLibrary\keywords\element.py", line 139, in page_should_contain
+    raise AssertionError(
+AssertionError: Page should have contained text 'Please fill out this field.' but did not.
+20220613 05:12:36.593 - INFO - +--- END KEYWORD: SeleniumLibrary.Page Should Contain (1587)
+20220613 05:12:36.604 - INFO - +-- END KEYWORD: DDT For Invalid Login Scenarios (14769)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20220613 05:12:36.605 - INFO - +-- START KEYWORD: DDT For Invalid Login Scenarios [ usernamee | ${EMPTY} | Please fill out this field. ]
+20220613 05:12:36.606 - INFO - +--- START KEYWORD: SeleniumLibrary.Open Browser [ ${URL} | ${BROWSER} ]
+20220613 05:12:36.607 - INFO - Opening browser 'chrome' to base url 'http://192.168.1.162:8080/'.
+20220613 05:12:45.058 - DEBUG - Opened browser with session id d5940d6bcf53c44264040ac6e9c6feee.
+20220613 05:12:45.058 - INFO - +--- END KEYWORD: SeleniumLibrary.Open Browser (8452)
+20220613 05:12:45.059 - INFO - +--- START KEYWORD: SeleniumLibrary.Maximize Browser Window [ ]
+20220613 05:12:45.580 - INFO - +--- END KEYWORD: SeleniumLibrary.Maximize Browser Window (521)
+20220613 05:12:45.581 - INFO - +--- START KEYWORD: SeleniumLibrary.Wait Until Element Is Visible [ ${Login_link} ]
+20220613 05:12:45.630 - INFO - +--- END KEYWORD: SeleniumLibrary.Wait Until Element Is Visible (49)
+20220613 05:12:45.630 - INFO - +--- START KEYWORD: SeleniumLibrary.Click Link [ ${Login_link} ]
+20220613 05:12:45.631 - INFO - Clicking link 'xpath://a[contains(text(),'Log In')]'.
+20220613 05:12:46.383 - INFO - +--- END KEYWORD: SeleniumLibrary.Click Link (753)
+20220613 05:12:46.383 - INFO - +--- START KEYWORD: SeleniumLibrary.Input Text [ ${usernaame} | ${username} ]
+20220613 05:12:46.384 - INFO - Typing text 'usernamee' into text field 'id:username'.
+20220613 05:12:46.600 - INFO - +--- END KEYWORD: SeleniumLibrary.Input Text (217)
+20220613 05:12:46.600 - INFO - +--- START KEYWORD: SeleniumLibrary.Input Text [ ${passwoord} | ${password} ]
+20220613 05:12:46.601 - INFO - Typing text '' into text field 'id:password'.
+20220613 05:12:46.739 - INFO - +--- END KEYWORD: SeleniumLibrary.Input Text (138)
+20220613 05:12:46.739 - INFO - +--- START KEYWORD: SeleniumLibrary.Wait Until Element Is Visible [ ${Login} ]
+20220613 05:12:46.867 - INFO - +--- END KEYWORD: SeleniumLibrary.Wait Until Element Is Visible (128)
+20220613 05:12:46.867 - INFO - +--- START KEYWORD: SeleniumLibrary.Click Button [ ${Login} ]
+20220613 05:12:46.867 - INFO - Clicking button 'xpath:/html/body/section/form/input[3]'.
+20220613 05:12:47.277 - INFO - +--- END KEYWORD: SeleniumLibrary.Click Button (409)
+20220613 05:12:47.277 - INFO - +--- START KEYWORD: SeleniumLibrary.Page Should Contain [ ${errormessage} ]
+20220613 05:12:47.311 - DEBUG - Current frame has 0 subframes.
+20220613 05:12:49.032 - INFO - </td></tr><tr><td colspan="3"><a href="selenium-screenshot-9.png"><img src="selenium-screenshot-9.png" width="800px"></a>
+20220613 05:12:49.033 - FAIL - Page should have contained text 'Please fill out this field.' but did not.
+20220613 05:12:49.034 - DEBUG - Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\SeleniumLibrary\__init__.py", line 496, in run_keyword
+    return DynamicCore.run_keyword(self, name, args, kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\robotlibcore.py", line 94, in run_keyword
+    return self.keywords[name](*args, **(kwargs or {}))
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\SeleniumLibrary\keywords\element.py", line 139, in page_should_contain
+    raise AssertionError(
+AssertionError: Page should have contained text 'Please fill out this field.' but did not.
+20220613 05:12:49.035 - INFO - +--- END KEYWORD: SeleniumLibrary.Page Should Contain (1758)
+20220613 05:12:49.189 - INFO - +-- END KEYWORD: DDT For Invalid Login Scenarios (12432)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20220613 05:12:49.203 - INFO - +-- START KEYWORD: DDT For Invalid Login Scenarios [ user | test | Login Failure ]
+20220613 05:12:49.205 - INFO - +--- START KEYWORD: SeleniumLibrary.Open Browser [ ${URL} | ${BROWSER} ]
+20220613 05:12:49.220 - INFO - Opening browser 'chrome' to base url 'http://192.168.1.162:8080/'.
+20220613 05:12:55.162 - DEBUG - Opened browser with session id 0c2c8d12cb9e88b78b4b9bb9c31623f5.
+20220613 05:12:55.163 - INFO - +--- END KEYWORD: SeleniumLibrary.Open Browser (5957)
+20220613 05:12:55.165 - INFO - +--- START KEYWORD: SeleniumLibrary.Maximize Browser Window [ ]
+20220613 05:12:55.606 - INFO - +--- END KEYWORD: SeleniumLibrary.Maximize Browser Window (441)
+20220613 05:12:55.607 - INFO - +--- START KEYWORD: SeleniumLibrary.Wait Until Element Is Visible [ ${Login_link} ]
+20220613 05:12:55.872 - INFO - +--- END KEYWORD: SeleniumLibrary.Wait Until Element Is Visible (265)
+20220613 05:12:55.873 - INFO - +--- START KEYWORD: SeleniumLibrary.Click Link [ ${Login_link} ]
+20220613 05:12:55.873 - INFO - Clicking link 'xpath://a[contains(text(),'Log In')]'.
+20220613 05:12:56.398 - INFO - +--- END KEYWORD: SeleniumLibrary.Click Link (526)
+20220613 05:12:56.399 - INFO - +--- START KEYWORD: SeleniumLibrary.Input Text [ ${usernaame} | ${username} ]
+20220613 05:12:56.400 - INFO - Typing text 'user' into text field 'id:username'.
+20220613 05:12:56.859 - INFO - +--- END KEYWORD: SeleniumLibrary.Input Text (459)
+20220613 05:12:56.859 - INFO - +--- START KEYWORD: SeleniumLibrary.Input Text [ ${passwoord} | ${password} ]
+20220613 05:12:56.860 - INFO - Typing text 'test' into text field 'id:password'.
+20220613 05:12:57.088 - INFO - +--- END KEYWORD: SeleniumLibrary.Input Text (229)
+20220613 05:12:57.089 - INFO - +--- START KEYWORD: SeleniumLibrary.Wait Until Element Is Visible [ ${Login} ]
+20220613 05:12:57.158 - INFO - +--- END KEYWORD: SeleniumLibrary.Wait Until Element Is Visible (68)
+20220613 05:12:57.158 - INFO - +--- START KEYWORD: SeleniumLibrary.Click Button [ ${Login} ]
+20220613 05:12:57.159 - INFO - Clicking button 'xpath:/html/body/section/form/input[3]'.
+20220613 05:12:57.674 - INFO - +--- END KEYWORD: SeleniumLibrary.Click Button (516)
+20220613 05:12:57.675 - INFO - +--- START KEYWORD: SeleniumLibrary.Page Should Contain [ ${errormessage} ]
+20220613 05:12:57.750 - INFO - Current page contains text 'Login Failure'.
+20220613 05:12:57.750 - INFO - +--- END KEYWORD: SeleniumLibrary.Page Should Contain (76)
+20220613 05:12:57.758 - INFO - +-- END KEYWORD: DDT For Invalid Login Scenarios (8548)
+------------------------------------------------------------------------------
+20220613 05:12:57.764 - INFO - +- END TEST: TC4 (56435)
+------------------------------------------------------------------------------
+20220613 05:12:57.777 - INFO - + END SUITE: flaskyTestCases (59348)
+==============================================================================
